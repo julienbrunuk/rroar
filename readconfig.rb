@@ -6,5 +6,5 @@ module ReadConfig
     FileUtils.cp('./config.default.yml', @user_config_dir)
   end
   $LOG = Logger.new('rroar.log', 'monthly')
-
+  #test comment
 end
